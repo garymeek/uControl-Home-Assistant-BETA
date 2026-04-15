@@ -14,3 +14,59 @@ Installing the integration:
 13) On the next screen you can add actions for each button
 14) Should now be good to go
 
+Buttons Available in the integration
+===============================================
+Each Device has the following buttons available
+
+Button ID
+==========
+ID  Button 
+0 - info 
+1 - 0 
+2 - guide 
+3 - 7 
+4 - 8 
+5 - 9 
+6 - 4 
+7 - 5 
+8 - 6 
+9 - 1 
+10 - 2 
+11 - 3 
+12 - Red 
+13 - Green 
+14 - Yellow 
+15 - Blue 
+16 - Vol- 
+17 - Back 
+18 - CHDown 
+19 - Down 
+20 - Mute 
+21 - Left 
+22 - Enter 
+23 - Right 
+24 - Menu 
+25 - Up 
+26 - Vol+ 
+27 - Home 
+28 - CHUP 
+29 - Rec 
+30 - Pause 
+31 - Stop 
+32 - Previous 
+33 - Play 
+34 - Next
+39 - TV Device Selected
+40 - Audio Device Selected
+41 - Input Device Selected
+49 - Power On (these are added to the Power On menu - short press of power button)
+50 - Power Off (these are added to the Power Off menu - long press of power button)
+
+Sequence Buttons
+================
+These are global (not device context specific) and configured for short and long press (to give you an on an off option for a macro)
+
+Sequence 1 -4
+Long Press
+Short Press
+
