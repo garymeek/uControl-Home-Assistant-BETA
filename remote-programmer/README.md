@@ -1,0 +1,16 @@
+Setting up the Remote:
+- Make sure you've added the remote to your wifi and set it with an IP. Instructions for this are included in the remote box - It is recommend the remote has a static DHCP reservation
+- Open the Remote Tool 
+- Select '1 - Setup Remote'
+- Enter the devices you would like (pay attention to the order), you can select which category these sit in on the remote for each device.
+- Once you reach the last device, hit enter and it will complete the device entry procedure.
+- Select whether you would like per-device volume - this means the volume controls are independent per device. If you select no, it will default to the first Audio category device as a master volume (AVR for example)
+- Take a screenshot of the config summary (this is useful if you find any bugs)
+- Generate the template
+- Select Y to upload the configuration
+  -Enter the remote IP address configured earlier
+  -Enter the controller IP address (this is your home assistant server address)
+  -Enter a zone name - this is displayed on the remote. EG 'Living Room' 'Home Cinema' 'Bedroom'
+- The tool will then connect to the remote and upload the configuration 
+- Take note after completion of any errors listed (screenshot if possible)
+- Exit the tool
