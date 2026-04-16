@@ -27,7 +27,7 @@
 2. Copy the integration files **(ignore the `remote programmer` folder)** to:
 
    ```
-   \\<HA IP>\config\custom_components\uControl\
+   \\<HA IP>\config\custom_components\uControl_ip\
    ```
 
 3. Restart **Home Assistant**
