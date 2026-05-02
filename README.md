@@ -1,6 +1,6 @@
 # 🔌 uControl IP Bridge — Installation & Setup Guide
 
-For ease it is recommedended that you configure the remote first using the remote programmer tool before completing the below steps
+For ease it is recommended that you configure the remote first using the remote programmer tool before completing the below steps
 
 ## 🚀 Install via HACS (Recommended)
 
