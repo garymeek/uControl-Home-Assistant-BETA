@@ -219,7 +219,7 @@ class UControlIPCommandView(HomeAssistantView):
         service = btn_map.get(CONF_SERVICE)
         entity_id = btn_map.get(CONF_ENTITY_ID)
 
-        if not domain or not service or not entity_id:
+        if not domain or not service:
             return web.json_response(
                 {"header": {"status": 404, "message": "Incomplete mapping"}},
                 status=404,
@@ -245,7 +245,9 @@ class UControlIPCommandView(HomeAssistantView):
         )
 
         try:
-            call_data = {"entity_id": entity_id, **extra_data}
+            call_data = {**extra_data}
+            if entity_id:
+                call_data["entity_id"] = entity_id
             await hass.services.async_call(
                 domain,
                 service,
