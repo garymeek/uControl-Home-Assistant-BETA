@@ -184,3 +184,4 @@ Each supports:
 - Use **Sequences** for client-friendly automation  
 - Map **long press = OFF**, **short press = ON** for intuitive control  
 - Keep device order consistent with uControl setup  
+- [Supported Commands](SUPPORTED_COMMANDS.md)
