@@ -2,12 +2,12 @@
   "domain": "ucontrol_ip",
   "name": "uControl IP Bridge",
   "version": "2.3.0",
-  "documentation": "https://github.com/gary-meek/uControl-Home-Assistant-Integration",
-  "issue_tracker": "https://github.com/gary-meek/uControl-Home-Assistant-Integration/issues",
+  "documentation": "https://github.com/garymeek/uControl-Home-Assistant-BETA",
+  "issue_tracker": "https://github.com/garymeek/uControl-Home-Assistant-BETA/issues",
   "config_flow": true,
   "integration_type": "hub",
   "iot_class": "local_push",
   "requirements": [],
   "dependencies": ["http"],
-  "codeowners": ["@gary-meek"]
+  "codeowners": ["@garymeek"]
 }
