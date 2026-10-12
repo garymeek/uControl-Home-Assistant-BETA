@@ -1,6 +1,10 @@
 # 🔌 uControl IP Bridge — Installation & Setup Guide
 
-For ease it is recommended that you configure the remote first using the remote programmer tool before completing the below steps
+For ease it is recommended that you **configure the remote first using the remote programmer tool** before completing the below steps. This make sure the remote ready to use with Home Assistant
+
+https://github.com/garymeek/uControl-Home-Assistant-BETA/tree/main/remote-programmer
+
+Please use latest available version
 
 ## 🚀 Install via HACS (Recommended)
 
